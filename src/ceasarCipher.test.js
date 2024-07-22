@@ -11,3 +11,7 @@ test('take a string and apply the ceasar cipher to it', () => {
 test('take a string and apply the ceasar cipher to it', () => {
   expect(ceasarCipher('123', 3)).toBe('123');
 });
+
+test('take a string and apply the ceasar cipher to it', () => {
+  expect(ceasarCipher('Hello, World!', 3)).toBe('Khoor, Zruog!');
+});
